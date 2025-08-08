@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desktop Friendly Page</title>
+    <meta name="viewport" content="width=1024">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2d3e50;
+            color: #fff;
+            padding: 5% 6%;
+            text-align: center;
+            margin: 10px;
+            border-radius: 8px 8px 0 0;
+        }
+        main {
+            background: #fff;
+            padding: 40px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            font-size: 2rem;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav{
+            display: flex;
+           
+            padding: 20px;
+            width: 100vw;
+            background-color: #2d3e50;
+            color: #fff;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            align-content: center;
+           
+
+        }
+        @media (max-width: 786px) {
+            header {
+  
+                margin: 10px;
+            }
+            h1{
+                font-size: 1.5rem;
+            }
+            main{
+                margin: 10px;
+                background-color: antiquewhite;
+                font-size: 1.2rem;
+            }
+            nav{
+               flex-direction: column;
+            
+            }
+         ul{
+            flex-direction: column;
+        
+         }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="font-size: 1.5rem;">Elevate labs</li>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to the Desktop Friendly Page Which is now converted in to mobile friendly page</h1>
+    </header>
+    <main>
+        <p>This webpage is designed to be viewed on desktop screens only. Please use a desktop or resize your browser window to a larger width for the best experience.</p>
+    </main>
+</body>
+</html>
